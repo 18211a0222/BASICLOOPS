@@ -8,7 +8,7 @@ class FibonacciNumbers
 	System.out.print("Enter a number : ");
 	num = sc.nextInt();
 	int firstnum = 0, secondnum = 1;
-    System.out.println("The Fibonacci Series till " + num + " terms : ");
+    	System.out.println("The Fibonacci Series till " + num + " terms : ");
 	for (int i = 1; i <= num; ++i) 
 	{
     	System.out.print(firstnum + ", ");
