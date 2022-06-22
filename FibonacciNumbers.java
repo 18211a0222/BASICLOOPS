@@ -11,10 +11,10 @@ class FibonacciNumbers
     System.out.println("The Fibonacci Series till " + num + " terms : ");
 	for (int i = 1; i <= num; ++i) 
 	{
-      System.out.print(firstnum + ", ");
-      int nextnum = firstnum + secondnum;
-      firstnum = secondnum;
-      secondnum = nextnum;
+    	System.out.print(firstnum + ", ");
+      	int nextnum = firstnum + secondnum;
+      	firstnum = secondnum;
+      	secondnum = nextnum;
     }
   }
 }
